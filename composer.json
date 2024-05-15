@@ -1,0 +1,23 @@
+{
+    "name": "n0izestr3am/notifklien",
+    "type": "package",
+    "license": "MIT",
+    "version": "v1.0",
+    "autoload": {
+        "psr-4": {
+            "n0izestr3am\\notifklien\\": "src/"
+        }
+    },
+    "authors": [
+        {
+             "name": "n0izestr3am",
+             "email": "n0izestr3am@gmail.com"
+        }
+    ],
+    "require": {
+         "php": "^7.2|^8.0",
+         "ext-json": "*",
+         "laravel/framework": "^6.0|^8.0",
+         "ixudra/curl": "6.*"
+    }
+}
